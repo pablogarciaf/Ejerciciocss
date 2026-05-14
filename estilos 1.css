@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* color fondo*/
+    text-align: center;
+}
+
+.nav-principal {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 15px;
+}
+
+.nav-principal a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-principal a:hover {
+    color: #A00; /* Rojo claro */
+}
+
+.galeria-flex {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.img-redondeada { /* esquinas redonedadas*/
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+/*about   */
+.about-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+/* formulario  */
+.formulario-flex {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.aviso-rojo {
+    color: #F00; 
+}
+
+/* boton + hover */
+.boton-enviar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.boton-enviar:hover {
+    background-color: #060; 
+}
+
+/* footer*/
+footer {
+    background-color: #333;
+    color: #888;
+    padding: 10px;
+    font-size: 12px;
+}
